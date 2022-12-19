@@ -5,7 +5,7 @@
  *
  * @str: input string
  */
-void puts_half(char *s)
+void puts_half(char *str)
 {
 	int index, half;
 
@@ -23,4 +23,4 @@ void puts_half(char *s)
 		half++;
 	}
 	_putchar('\n');
-i}
+}
