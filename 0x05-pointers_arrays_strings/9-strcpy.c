@@ -2,7 +2,7 @@
 
 /**
  * _strcpy - copy string
- * @dest: destinty 
+ * @dest: destiny
  * @src: copy string
  *
  * Return: return copy
