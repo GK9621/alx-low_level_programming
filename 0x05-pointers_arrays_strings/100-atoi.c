@@ -1,10 +1,10 @@
 #include "main.h"
-
 /** _atoi - convert string to integer
  * @s: character string
  *
  * Return: void
  */
+
 int _atoi(char *s)
 {
 	int sign;
