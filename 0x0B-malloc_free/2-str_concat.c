@@ -1,12 +1,11 @@
 #include <stdlib.h>
-#include "main.h"
 
 /**
  * get_str_len - lenghts of string
  * @str: string
  * Return: returns integer
  */
-char *str_concat(char *s1, char *s2)
+int get_str_len(char *str)
 {
 	int i;
 
