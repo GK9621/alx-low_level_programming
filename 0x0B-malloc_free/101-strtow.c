@@ -76,12 +76,12 @@ char **strtow(char *str)
 
 		letters = word_len(str + index);
 
-		string[w] = malloc(sizeof(char) * (letter + 1));
+		strings[w] = malloc(sizeof(char) * (letter + 1));
 
-		if (string[w] == NULL)
+		if (strings[w] == NULL)
 		{
 			for (;w >= 0; w--)
-				free(string[w]);
+				free(strings[w]);
 
 			free(strings);
 			return (NULL);
