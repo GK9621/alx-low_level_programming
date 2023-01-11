@@ -1,7 +1,7 @@
 #include <stdlib.h>
 
 /**
- * alloc_grid - retuns 2d arra
+ * alloc_grid - retuns 2d array
  * @width: row sie
  * @height: column size
  * Return: 2d pointer array
@@ -15,7 +15,7 @@ int **alloc_grid(int width, int height)
 	if (width <= 0 || height <= 0)
 		return (NULL);
 
-	ptr = (int **) malloc(height * sizeof(int *))
+	ptr = (int **) malloc(height * sizeof(int *));
 
 		if (ptr == NULL)
 			return (NULL);
