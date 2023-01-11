@@ -9,7 +9,7 @@ char **strtow(char *str);
  * word_len - locates index of first word
  * @str: string to be searched
  *
- * Return: index 
+ * Return: index
  */
 int word_len(char *str)
 {
@@ -92,7 +92,7 @@ char **strtow(char *str)
 
 		strings[w][l] = '\0';
 	}
-	strings [w] = NULL;
+	strings[w] = NULL;
 
 	return (strings);
 }
